@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF828C072A77AB6E000F66BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C062A77AB6E000F66BD /* AppDelegate.swift */; };
+		AF828C092A77AB6E000F66BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C082A77AB6E000F66BD /* SceneDelegate.swift */; };
+		AF828C0E2A77AB6E000F66BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF828C0C2A77AB6E000F66BD /* Main.storyboard */; };
+		AF828C102A77AB70000F66BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF828C0F2A77AB70000F66BD /* Assets.xcassets */; };
+		AF828C132A77AB70000F66BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF828C112A77AB70000F66BD /* LaunchScreen.storyboard */; };
+		AF828C1B2A77AB95000F66BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C1A2A77AB95000F66BD /* MenuViewController.swift */; };
+		AF828C1D2A77ABA6000F66BD /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C1C2A77ABA6000F66BD /* PlayViewController.swift */; };
+		AF828C222A77AC78000F66BD /* FoodTruckKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF828C212A77AC78000F66BD /* FoodTruckKit */; };
+		AF828C262A77B793000F66BD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C252A77B793000F66BD /* Result.swift */; };
+		AF828C282A77BEDB000F66BD /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C272A77BEDB000F66BD /* Level.swift */; };
+		AF828C2A2A77C533000F66BD /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828C292A77C533000F66BD /* IngredientViewController.swift */; };
+		AF828C2F2A78D89E000F66BD /* tanoshiimugibatake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF828C2E2A78D89E000F66BD /* tanoshiimugibatake.mp3 */; };
+		AF828C342A78E0C5000F66BD /* javapimp__kara-nope.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF828C302A78E0C5000F66BD /* javapimp__kara-nope.mp3 */; };
+		AF828C352A78E0C5000F66BD /* javapimp__kara-ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF828C312A78E0C5000F66BD /* javapimp__kara-ok.mp3 */; };
+		AF828C362A78E0C5000F66BD /* javapimp__kara-yippee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF828C322A78E0C5000F66BD /* javapimp__kara-yippee.mp3 */; };
+		AF828C372A78E0C5000F66BD /* javapimp__kara-o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF828C332A78E0C5000F66BD /* javapimp__kara-o.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF828C032A77AB6E000F66BD /* Bake Donuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bake Donuts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF828C062A77AB6E000F66BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF828C082A77AB6E000F66BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF828C0D2A77AB6E000F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF828C0F2A77AB70000F66BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF828C122A77AB70000F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF828C142A77AB70000F66BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF828C1A2A77AB95000F66BD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AF828C1C2A77ABA6000F66BD /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		AF828C1F2A77AC6F000F66BD /* FoodTruckKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FoodTruckKit; path = ../../FoodTruckBuildingASwiftUIMultiplatformApp/FoodTruckKit; sourceTree = "<group>"; };
+		AF828C252A77B793000F66BD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		AF828C272A77BEDB000F66BD /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		AF828C292A77C533000F66BD /* IngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		AF828C2E2A78D89E000F66BD /* tanoshiimugibatake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tanoshiimugibatake.mp3; sourceTree = "<group>"; };
+		AF828C302A78E0C5000F66BD /* javapimp__kara-nope.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "javapimp__kara-nope.mp3"; sourceTree = "<group>"; };
+		AF828C312A78E0C5000F66BD /* javapimp__kara-ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "javapimp__kara-ok.mp3"; sourceTree = "<group>"; };
+		AF828C322A78E0C5000F66BD /* javapimp__kara-yippee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "javapimp__kara-yippee.mp3"; sourceTree = "<group>"; };
+		AF828C332A78E0C5000F66BD /* javapimp__kara-o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "javapimp__kara-o.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF828C002A77AB6E000F66BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF828C222A77AC78000F66BD /* FoodTruckKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF828BFA2A77AB6E000F66BD = {
+			isa = PBXGroup;
+			children = (
+				AF828C1F2A77AC6F000F66BD /* FoodTruckKit */,
+				AF828C052A77AB6E000F66BD /* Bake Donuts */,
+				AF828C042A77AB6E000F66BD /* Products */,
+				AF828C202A77AC74000F66BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF828C042A77AB6E000F66BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF828C032A77AB6E000F66BD /* Bake Donuts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF828C052A77AB6E000F66BD /* Bake Donuts */ = {
+			isa = PBXGroup;
+			children = (
+				AF828C062A77AB6E000F66BD /* AppDelegate.swift */,
+				AF828C082A77AB6E000F66BD /* SceneDelegate.swift */,
+				AF828C2D2A78027C000F66BD /* Views */,
+				AF828C2B2A78020F000F66BD /* Controllers */,
+				AF828C2C2A780231000F66BD /* Models */,
+				AF828C0F2A77AB70000F66BD /* Assets.xcassets */,
+				AF828C2E2A78D89E000F66BD /* tanoshiimugibatake.mp3 */,
+				AF828C302A78E0C5000F66BD /* javapimp__kara-nope.mp3 */,
+				AF828C332A78E0C5000F66BD /* javapimp__kara-o.mp3 */,
+				AF828C312A78E0C5000F66BD /* javapimp__kara-ok.mp3 */,
+				AF828C322A78E0C5000F66BD /* javapimp__kara-yippee.mp3 */,
+				AF828C142A77AB70000F66BD /* Info.plist */,
+			);
+			path = "Bake Donuts";
+			sourceTree = "<group>";
+		};
+		AF828C202A77AC74000F66BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF828C2B2A78020F000F66BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF828C292A77C533000F66BD /* IngredientViewController.swift */,
+				AF828C1A2A77AB95000F66BD /* MenuViewController.swift */,
+				AF828C1C2A77ABA6000F66BD /* PlayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF828C2C2A780231000F66BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF828C252A77B793000F66BD /* Result.swift */,
+				AF828C272A77BEDB000F66BD /* Level.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF828C2D2A78027C000F66BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF828C112A77AB70000F66BD /* LaunchScreen.storyboard */,
+				AF828C0C2A77AB6E000F66BD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF828C022A77AB6E000F66BD /* Bake Donuts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF828C172A77AB70000F66BD /* Build configuration list for PBXNativeTarget "Bake Donuts" */;
+			buildPhases = (
+				AF828BFF2A77AB6E000F66BD /* Sources */,
+				AF828C002A77AB6E000F66BD /* Frameworks */,
+				AF828C012A77AB6E000F66BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bake Donuts";
+			packageProductDependencies = (
+				AF828C212A77AC78000F66BD /* FoodTruckKit */,
+			);
+			productName = "Bake Donuts";
+			productReference = AF828C032A77AB6E000F66BD /* Bake Donuts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF828BFB2A77AB6E000F66BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF828C022A77AB6E000F66BD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF828BFE2A77AB6E000F66BD /* Build configuration list for PBXProject "Bake Donuts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF828BFA2A77AB6E000F66BD;
+			productRefGroup = AF828C042A77AB6E000F66BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF828C022A77AB6E000F66BD /* Bake Donuts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF828C012A77AB6E000F66BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF828C132A77AB70000F66BD /* LaunchScreen.storyboard in Resources */,
+				AF828C2F2A78D89E000F66BD /* tanoshiimugibatake.mp3 in Resources */,
+				AF828C342A78E0C5000F66BD /* javapimp__kara-nope.mp3 in Resources */,
+				AF828C372A78E0C5000F66BD /* javapimp__kara-o.mp3 in Resources */,
+				AF828C362A78E0C5000F66BD /* javapimp__kara-yippee.mp3 in Resources */,
+				AF828C352A78E0C5000F66BD /* javapimp__kara-ok.mp3 in Resources */,
+				AF828C102A77AB70000F66BD /* Assets.xcassets in Resources */,
+				AF828C0E2A77AB6E000F66BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF828BFF2A77AB6E000F66BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF828C2A2A77C533000F66BD /* IngredientViewController.swift in Sources */,
+				AF828C282A77BEDB000F66BD /* Level.swift in Sources */,
+				AF828C1D2A77ABA6000F66BD /* PlayViewController.swift in Sources */,
+				AF828C262A77B793000F66BD /* Result.swift in Sources */,
+				AF828C072A77AB6E000F66BD /* AppDelegate.swift in Sources */,
+				AF828C1B2A77AB95000F66BD /* MenuViewController.swift in Sources */,
+				AF828C092A77AB6E000F66BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF828C0C2A77AB6E000F66BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF828C0D2A77AB6E000F66BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF828C112A77AB70000F66BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF828C122A77AB70000F66BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF828C152A77AB70000F66BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF828C162A77AB70000F66BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF828C182A77AB70000F66BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WM9U7Y583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bake Donuts/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bake Donuts!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pei.Bake-Donuts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF828C192A77AB70000F66BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WM9U7Y583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bake Donuts/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bake Donuts!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pei.Bake-Donuts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF828BFE2A77AB6E000F66BD /* Build configuration list for PBXProject "Bake Donuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF828C152A77AB70000F66BD /* Debug */,
+				AF828C162A77AB70000F66BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF828C172A77AB70000F66BD /* Build configuration list for PBXNativeTarget "Bake Donuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF828C182A77AB70000F66BD /* Debug */,
+				AF828C192A77AB70000F66BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF828C212A77AC78000F66BD /* FoodTruckKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FoodTruckKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF828BFB2A77AB6E000F66BD /* Project object */;
+}
